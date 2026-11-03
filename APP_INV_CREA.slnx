@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="APP_INV_CREA/APP_INV_CREA.Shared/APP_INV_CREA.Shared.csproj" />
+  <Project Path="APP_INV_CREA/APP_INV_CREA.Web/APP_INV_CREA.Web.csproj" />
+  <Project Path="APP_INV_CREA/APP_INV_CREA/APP_INV_CREA.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Datos/Datos.csproj" />
+  <Project Path="Negocio/Negocio.csproj" />
+</Solution>

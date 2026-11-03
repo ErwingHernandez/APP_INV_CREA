@@ -1,0 +1,15 @@
+﻿namespace APP_INV_CREA
+{
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
+        }
+
+        protected override Window CreateWindow(IActivationState? activationState)
+        {
+            return new Window(new MainPage()) { Title = "APP_INV_CREA" };
+        }
+    }
+}
