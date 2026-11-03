@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Negocio\Negocio.csproj" />
     <ProjectReference Include="..\APP_INV_CREA.Shared\APP_INV_CREA.Shared.csproj" />
   </ItemGroup>
 
