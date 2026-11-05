@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Contexto\AppdbContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Contexto\AppdbContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.14">
