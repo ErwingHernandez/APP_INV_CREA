@@ -8,7 +8,7 @@ namespace APP_INV_CREA
     {
         public static MauiApp CreateMauiApp()
         {
-            var builder = MauiApp.CreateBuilder();
+            var builder = MauiApp.CreateBuilder(); //prueba
             builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
